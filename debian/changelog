@@ -1,0 +1,5 @@
+artifex-ghostscript (9.23-1) unstable; urgency=medium
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- Leonardo Brondani Schenkel <leo@tradeshift.com>  Wed, 23 May 2018 13:33:17 +0000
