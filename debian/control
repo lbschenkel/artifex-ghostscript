@@ -2,14 +2,13 @@ Source: artifex-ghostscript
 Section: unknown
 Priority: optional
 Maintainer: Leonardo Brondani Schenkel <leo@tradeshift.com>
-Build-Depends: debhelper (>=9),autotools-dev
+Build-Depends: debhelper (>=9),autotools-dev,cdbs
 Standards-Version: 3.9.6
-Homepage: <insert the upstream URL, if relevant>
-#Vcs-Git: git://anonscm.debian.org/collab-maint/artifex-ghostscript.git
-#Vcs-Browser: https://anonscm.debian.org/cgit/collab-maint/artifex-ghostscript.git
+Homepage: https://www.ghostscript.com
+Vcs-Git: git://git.ghostscript.com/ghostpdl.git
+Vcs-Browser: http://git.ghostscript.com/?p=ghostpdl.git;a=summary
 
 Package: artifex-ghostscript
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: <insert up to 60 chars description>
- <insert long description, indented with spaces>
+Description: Ghostscript from Artifex
